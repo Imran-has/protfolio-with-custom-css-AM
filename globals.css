@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ul{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  text-align: center;
+  background-color: blue;
+  gap: 6;
+  padding: 20px;
+  margin: auto ;
+  transition: 0.3s ease;
+  
+}
+.ul:hover{
+  background-color: pink;
+  color: pink;
+  
+}
+.imran{
+  font-size: 30px;
+  color: white;
+  font:bold;
+  text-align: left;
+  
+  
+  
+  
+
+ 
+}
+.imran:hover{
+  background-color: rgb(250, 124, 202);
+  color:pink;
+
+}
+.li{
+  
+  color: rgb(240, 233, 235);
+}
+
+.li:hover{
+background-color: pink;
+color:pink; 
+}
+.section{
+  text-align: center;
+}
+.h1{
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: x-large;
+padding: 50px;
+margin: 20px;
+}
+.p{
+  align-items: center;
+  font-size: x-large;
+  display: flex;
+justify-content: center;
+}
+.heading{
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+.para{
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.heading2{
+  font-size: x-large;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+.ul1{
+  font-size: x-large;
+  align-items: center;
+  padding: 6px;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+.heading3{
+  font-size: x-large;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.heading4{
+  font-size: large;
+  align-items: center;
+  padding: 6px;
+  color:red;
+  display: flex;
+  justify-content: center;
+}
+.para1{
+  font-size: large;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+}
+.heading5{
+  font-size: large;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.para3{
+  font-size: large;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+}
+.dev{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.heading6{
+  color:red;
+  font-size: larger;
+  align-items: center;
+  padding: 4px;
+  font:bold;
+  justify-content: center;
+  text-align: center;
+  
+}
+.dev1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+.dev2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.heading7{
+  color:red;
+  font-size: larger;
+  align-items: center;
+  padding: 4px;
+  font:bold;
+}
+.dev3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 5;
+}
+.dev4{
+  padding: 10px;
+  margin: 5px;
+}
+.heading8{
+  color:red;
+  font-size: larger;
+  align-items: center;
+  padding: 10px;
+  font:bold;
+  text-align: center;
+}
+container {
+  max-width: 32rem;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.heading {
+  font-size: 1.875rem; 
+  font-weight: bold;
+  margin:50px;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem; 
+  font-weight: 500;
+  color: #374151; 
+}
+
+.input,
+.textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid #D1D5DB; 
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #6366F1; 
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3); 
+}
+
+.button {
+  width: 100%;
+  background-color: #3B82F6; 
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #2563EB; 
+}
+
+.dev5{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  
+}
+.main{
+  flex-grow: calc();
+}
+.heading9{
+  text-align: center;
+  font-size: x-large;
+  font:bold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.free{
+  background-color: pink;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.ul5{
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  font:bold;
+  
+
+}
